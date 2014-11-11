@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int a, b, c, d, i, f;
+printf("1 \n");
+scanf ("%d%d%d", &a, &b, &c);
+int x;
+x=(a*60*60)+(b*60)+c;
+printf("2 \n");
+scanf ("%d%d%d", &d, &i, &f);
+int y;
+y=(d*60*60)+(i*60)+f;
+if (x>y)
+{
+int z;
+z=x-y;
+printf("s: %d", z);
+}
+
+else
+{
+int z;
+z=y-x;
+printf("s: %d", z);
+}
+
+return 0;
+}
